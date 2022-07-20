@@ -1,1 +1,0 @@
-print("Simple Calculator TEST Version 2!")
