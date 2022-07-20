@@ -55,25 +55,83 @@ while running:
             # repeats question due to invalid input
             else: 
                 print("")
-                print("Invalid Input! Enter valid choice.")
+                print("Invalid Input! Enter a valid choice.")
                 print("")
     
     elif option == 2: 
         
         print("time to subtract")
+
+        while running: 
+
+            print("[1] Return to Menu")
+            print("[2] Exit Program")
+            print("")
+            confirmation = int(input("Choose an option: "))
+
+            # returns user to menu
+            if confirmation == 1:
+                break
+            # exits program
+            elif confirmation == 2:
+                running = False
+            # repeats question due to invalid input
+            else: 
+                print("")
+                print("Invalid Input! Enter a valid choice.")
+                print("")
     
     elif option == 3: 
         
         print("time to multiply")
+
+        while running: 
+
+            print("[1] Return to Menu")
+            print("[2] Exit Program")
+            print("")
+            confirmation = int(input("Choose an option: "))
+
+            # returns user to menu
+            if confirmation == 1:
+                break
+            # exits program
+            elif confirmation == 2:
+                running = False
+            # repeats question due to invalid input
+            else: 
+                print("")
+                print("Invalid Input! Enter a valid choice.")
+                print("")
     
     elif option == 4: 
         
         print("time to divide")
+
+        while running: 
+
+            print("[1] Return to Menu")
+            print("[2] Exit Program")
+            print("")
+            confirmation = int(input("Choose an option: "))
+
+            # returns user to menu
+            if confirmation == 1:
+                break
+            # exits program
+            elif confirmation == 2:
+                running = False
+            # repeats question due to invalid input
+            else: 
+                print("")
+                print("Invalid Input! Enter a valid choice.")
+                print("")
     
     else: 
         
-        print("ty come again")
-        break
+        print("")
+        print("Invalid Input! Enter a valid choice.")
+        continue
 
 
 
