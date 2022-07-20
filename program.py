@@ -33,8 +33,10 @@ while running:
     option = int(input("Choose an option."))
 
     if option == 1:
+        
         print("time to add!")
         print("")
+        
         while running: 
 
             confirmation = input("Would you like to go back to [m] menu or [e] exit?")
@@ -50,15 +52,19 @@ while running:
                 print("")
     
     elif option == 2: 
+        
         print("time to subtract")
     
     elif option == 3: 
+        
         print("time to multiply")
     
     elif option == 4: 
+        
         print("time to divide")
     
     else: 
+        
         print("ty come again")
         break
 
