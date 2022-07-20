@@ -38,12 +38,16 @@ while running:
         while running: 
 
             confirmation = input("Would you like to go back to [m] menu or [e] exit?")
+            # returns user to menu
             if confirmation == "m":
                 break
+            # exits program
             elif confirmation == "e":
                 running = False
+            # repeats question due to invalid input
             else: 
-                print("CHOOSE AN OPTION I GAVE YOU!")
+                print("Invalid Input! Enter valid choice.")
+                print("")
     
     elif option == 2: 
         print("time to subtract")
