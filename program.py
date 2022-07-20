@@ -36,7 +36,14 @@ while running:
     if option == 1:
         
         print("")
-        print("time to add!")
+        print("Mode: Addition")
+        print("-----")
+        firstNumber = int(input("Enter first number: "))
+        secondNumber = int(input("Enter second number: "))
+        result = firstNumber + secondNumber
+        print("")
+        print("Result: " + str(result))
+        print("-----")
         print("")
         
         while running: 
