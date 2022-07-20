@@ -131,7 +131,16 @@ while running:
     
     elif option == 4: 
         
-        print("time to divide")
+        print("")
+        print("Mode: Division")
+        print("-----")
+        firstNumber = int(input("Enter first number: "))
+        secondNumber = int(input("Enter second number: "))
+        result = firstNumber / secondNumber
+        print("")
+        print("Result: " + str(result))
+        print("-----")
+        print("")
 
         while running: 
 
