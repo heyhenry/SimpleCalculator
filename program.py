@@ -67,7 +67,16 @@ while running:
     
     elif option == 2: 
         
-        print("time to subtract")
+        print("")
+        print("Mode: Subtraction")
+        print("-----")
+        firstNumber = int(input("Enter first number: "))
+        secondNumber = int(input("Enter second number: "))
+        result = firstNumber - secondNumber
+        print("")
+        print("Result: " + str(result))
+        print("-----")
+        print("")
 
         while running: 
 
