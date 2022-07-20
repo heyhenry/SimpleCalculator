@@ -99,7 +99,16 @@ while running:
     
     elif option == 3: 
         
-        print("time to multiply")
+        print("")
+        print("Mode: Multiplication")
+        print("-----")
+        firstNumber = int(input("Enter first number: "))
+        secondNumber = int(input("Enter second number: "))
+        result = firstNumber * secondNumber
+        print("")
+        print("Result: " + str(result))
+        print("-----")
+        print("")
 
         while running: 
 
