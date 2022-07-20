@@ -39,12 +39,16 @@ while running:
         
         while running: 
 
-            confirmation = input("Would you like to go back to [m] menu or [e] exit?")
+            print("[1] Return to Menu")
+            print("[2] Exit Program")
+
+            confirmation = int(input("Choose an option."))
+
             # returns user to menu
-            if confirmation == "m":
+            if confirmation == 1:
                 break
             # exits program
-            elif confirmation == "e":
+            elif confirmation == 2:
                 running = False
             # repeats question due to invalid input
             else: 
