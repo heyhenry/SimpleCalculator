@@ -29,24 +29,31 @@ while running:
     print("[2] Subtract")
     print("[3] Multiply")
     print("[4] Divide")
+    
     option = int(input("Choose an option."))
 
     if option == 1:
         print("time to add!")
         print("")
-        confirmation = input("Would you like to go back to [m] menu or [e] exit?")
-        if confirmation == "m":
-            continue
-        elif confirmation == "e":
-            break
-        else: 
-            print("CHOOSE AN OPTION I GAVE YOU!")
+        while running: 
+
+            confirmation = input("Would you like to go back to [m] menu or [e] exit?")
+            if confirmation == "m":
+                break
+            elif confirmation == "e":
+                running = False
+            else: 
+                print("CHOOSE AN OPTION I GAVE YOU!")
+    
     elif option == 2: 
         print("time to subtract")
+    
     elif option == 3: 
         print("time to multiply")
+    
     elif option == 4: 
         print("time to divide")
+    
     else: 
         print("ty come again")
         break
