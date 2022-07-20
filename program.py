@@ -23,17 +23,19 @@ running = True
 
 while running:
 
+    print("")
     print("A Simple Calculator")
-
+    print("")
     print("[1] Add")
     print("[2] Subtract")
     print("[3] Multiply")
     print("[4] Divide")
-    
-    option = int(input("Choose an option."))
+    print("")
+    option = int(input("Choose an option: "))
 
     if option == 1:
         
+        print("")
         print("time to add!")
         print("")
         
@@ -41,8 +43,8 @@ while running:
 
             print("[1] Return to Menu")
             print("[2] Exit Program")
-
-            confirmation = int(input("Choose an option."))
+            print("")
+            confirmation = int(input("Choose an option: "))
 
             # returns user to menu
             if confirmation == 1:
@@ -52,6 +54,7 @@ while running:
                 running = False
             # repeats question due to invalid input
             else: 
+                print("")
                 print("Invalid Input! Enter valid choice.")
                 print("")
     
